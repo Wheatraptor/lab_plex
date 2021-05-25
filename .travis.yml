@@ -7,6 +7,6 @@ before_script:
 script:
   - cmake ../lab_plex
   - make -j
-  - ./LabTest/LabTest
+  - cd ./test
 notifications:
   email: false
